@@ -1,0 +1,3 @@
+Prompt ****** Creating Commande table .....
+
+CREATE TABLE 
