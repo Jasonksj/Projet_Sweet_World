@@ -1,7 +1,8 @@
 CREATE TABLE localisations 
-    ( id_loc INTEGER(10) NOT NULL, 
+    ( latitude INTEGER(10) NOT NULL,
+      longitude INTEGER(10) NOT NULL, 
       rue     VARCHAR(255) NOT NULL,
-      code_postal VARCHAR(255) NOT NULL, 
-     city   VARCHAR2(255)  
+      code_postal VARCHAR(255) ,
+      ville  VARCHAR2(255) NOT NULL  
     );
-    ----BY TATSINKOU----
+    --***********BY TATSINKOU**********--
