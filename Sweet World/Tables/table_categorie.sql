@@ -1,4 +1,4 @@
-Prompt ***** Creation de la table categorie ****
+Prompt ***** Creation de la table categorie *****
 
 CREATE TABLE categorie
 (
