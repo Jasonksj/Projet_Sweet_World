@@ -1,6 +1,6 @@
 CREATE TABLE localisations 
-    ( latitude NUMBER(10, 3),
-      longitude NUMBER(10, 3),
+    ( latitude VARCHAR(25)NOT NULL,
+      longitude VARCHAR(25)NOT NULL,
       rue     VARCHAR(255) NOT NULL,
       code_postal VARCHAR(255) ,
       ville  VARCHAR2(255) NOT NULL  

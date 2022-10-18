@@ -3,7 +3,7 @@ CREATE TABLE restaurants
       nom_restau VARCHAR(255) NOT NULL,
       description VARCHAR(255) ,
       nom_employe  VARCHAR2(255) NOT NULL,
-      latitude NUMBER(10, 3),
-      longitude NUMBER(10, 3)        
+      latitude VARCHAR(25),
+      longitude VARCHAR(25)        
     );
     --***********BY TATSINKOU**********--
