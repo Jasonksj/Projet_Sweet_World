@@ -6,3 +6,5 @@ ADD (
         FOREIGN KEY (id_order)
         REFERENCES Orders(id_order )
     ) ;
+
+    ----***** by FOTSO ******----
