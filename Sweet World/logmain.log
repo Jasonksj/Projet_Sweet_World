@@ -1,0 +1,94 @@
+
+Session modifiée.
+
+
+specify password for sw as parameter 1:
+
+specify default tablespeace for ob as parameter 2:
+
+specify temporary tablespace for ob as parameter 3:
+
+specify password for SYS as parameter 4:
+
+specify log path as parameter 5:
+
+specify connect string as parameter 6:
+
+DROP USER sw CASCADE
+          *
+ERREUR à la ligne 1 :
+ORA-01918: l'utilisateur 'SW' n'existe pas 
+
+
+
+Utilisateur créé.
+
+ALTER USER SET DEFAUT TABLE
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+Connecté.
+
+Autorisation de privilèges (GRANT) acceptée.
+
+Connecté.
+Connecté.
+
+Session altered.
+
+
+Session altered.
+
+
+***************************** TABLE CREATION FOR SWEET_WORLD SCHEMA *****************************
+
+
+***************************** CREATION OF THE CUSTOMERS TABLE *****************************
+
+SP2-0310: unable to open file "./Table_customers.sql"
+
+***************************** CREATION OF THE ADDRESS_C TABLE *****************************
+
+SP2-0310: unable to open file "./Table_address_c.sql"
+
+***************************** CREATION OF THE CATEGORY TABLE *****************************
+
+SP2-0310: unable to open file "./Table_category.sql"
+
+***************************** CREATION OF THE DELIVERY_MAN TABLE *****************************
+
+SP2-0310: unable to open file "./Table_delivery_man.sql"
+
+***************************** CREATION OF THE LOCATIONS TABLE *****************************
+
+SP2-0310: unable to open file "./Table_locations.sql"
+
+***************************** CREATION OF THE MEAL TABLE *****************************
+
+SP2-0310: unable to open file "./Table_meal.sql"
+
+***************************** CREATION OF THE ORDERS TABLE *****************************
+
+SP2-0310: unable to open file "./Table_orders.sql"
+
+***************************** CREATION OF THE PAYMENT TABLE *****************************
+
+SP2-0310: unable to open file "./Table_payment.sql"
+
+***************************** CREATION OF THE RESTAURANT TABLE *****************************
+
+SP2-0310: unable to open file "./Table_restaurant.sql"
+
+***************************** CREATION OF THE ROLES TABLE *****************************
+
+SP2-0310: unable to open file "./Table_roles.sql"
+

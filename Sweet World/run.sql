@@ -8,9 +8,9 @@ Prompt
 --
 -- create user
 --
+@users
 
-@./config
-@./user
+
 
 REM =======================================================
 REM create sw schema objects
@@ -24,25 +24,25 @@ ALTER SESSION SET NLS_TERRITORY=America;
 -- create tables
 --
 
-@./Tables/main_table
+@Tables/main_table
 
 -- 
 -- create index and constraints
 --
 
-@./Tables/Constraints/main_constraint
+@Tables/Constraints/main_constraint
 
 --
 -- create procedural objects and sequences
 --
 
-@./Procedural_Objects/po_s
+@Procedural_Objects/po_s
 
 --
 -- populate tables
 --
 
-@./Datas/main_data
+@Datas/main_data
 
 
 Prompt

@@ -1,10 +1,7 @@
-Prompt ***** Creation de la table categorie *****
-
-CREATE TABLE categorie
+CREATE TABLE Category
 (
-   id_categorie NUMBER
-       CONSTRAINT id_categorie_nn NOT NULL,
-    nom VARCHAR2(25)
+    id_category INT        NOT NULL,
+    Name_cat VARCHAR2(255) NOT NULL
 );
 /* Cree par annaellejosee13*/
 

@@ -1,13 +1,10 @@
-Prompt ***** Creation de la table repas ****
+Prompt ****** CREATING MEAL TABLE *****
 
-CREATE TABLE repas
+CREATE TABLE MEAL
 (
-   id_plat NUMBER
-       CONSTRAINT id_plat_nn NOT NULL,
-      nom_p VARCHAR(255)
-         CONSTRAINT nom_p_nn NOT NULL,
-      prix NUMBER
-         CONSTRAINT prix_nn NOT NULL,
-      description VARCHAR(1000)
+   id_meal     NUMBER        NOT NULL,
+   name_meal   VARCHAR(255)  NOT NULL,
+   Price       NUMBER        NOT NULL,
+   description VARCHAR(1000)
 );
 /* Cree par annaellejosee13*/

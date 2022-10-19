@@ -1,24 +1,14 @@
-ALTER TABLE Commande
+ALTER TABLE Orders
 ADD ( 
-CONSTRAINT N°cmd_pk
-		PRIMARY KEY(N°cmd),
-    CONSTRAINT fk_Commande
-        	 FOREIGN KEY (id_client)
-          	  REFERENCES Client(id_client)
-    ) ;
-ALTER TABLE Commande
-ADD (
-    CONSTRAINT N°cmd_pk
-		PRIMARY KEY(N°cmd), 
-    CONSTRAINT fk_Commande
-             FOREIGN KEY (id_plat)
-              REFERENCES Repas(id_plat)
-    ) ;
-ALTER TABLE Commande
-ADD (
-    CONSTRAINT N°cmd_pk
-		PRIMARY KEY(N°cmd),
-     CONSTRAINT fk_Commande
-             FOREIGN KEY (id_payement)
-              REFERENCES Payement(id_payement)
+CONSTRAINT id_order_pk
+		PRIMARY KEY(id_order),
+    CONSTRAINT fk_id_cust
+        	 FOREIGN KEY (id_cust)
+          	  REFERENCES Customers(id_cust)
+    CONSTRAINT fk_id_meal
+             FOREIGN KEY (id_meal)
+              REFERENCES Meal(id_meal)
+    CONSTRAINT fk_id_payment
+             FOREIGN KEY (id_payment)
+              REFERENCES Payment(id_payment)
     ) ;

@@ -1,7 +1,8 @@
-Prompt ****** Creating Livreur table.....
+Prompt ****** CREATING DELIVERY_MAN TABLE *****
 
-CREATE TABLE Livreur (
-    id_livreur      integer(10)       not null,
-    Nom              varchar(255)     not null,
-    Telephone_livreur integer(10)     not null
+CREATE TABLE Delivery_man
+(
+    id_deliv_man     NUMBER       NOT NULL,
+    Name             VARCHAR(255) NOT NULL,
+    phone_deliv_man  NUMBER       NOT NULL
 );
