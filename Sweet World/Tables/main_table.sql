@@ -1,6 +1,6 @@
-SET VERIFY OFF
-SET LINESIZE 3000
-SET PAGESIZE 1000
+ALTER SESSION SET NLS_LANGUAGE=English;
+ALTER SESSION SET NLS_TERRITORY=America;
+ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY'
 
 Prompt
 Prompt***************************** TABLE CREATION FOR SWEET_WORLD SCHEMA *****************************
@@ -11,62 +11,59 @@ Prompt
 Prompt***************************** CREATION OF THE CUSTOMERS TABLE *****************************
 Prompt
 
-@./Table_customers
+@Tables/Table_customers
 
 Prompt
-Prompt***************************** CREATION OF THE ADDRESS_C TABLE *****************************
+Prompt***************************** CREATION OF THE ADDRESS TABLE *****************************
 Prompt
 
-@./Table_address_c
+@Tables/Table_address
 
 Prompt
 Prompt***************************** CREATION OF THE CATEGORY TABLE *****************************
 Prompt
 
-@./Table_category
+@Tables/Table_category
 
 Prompt
 Prompt***************************** CREATION OF THE DELIVERY_MAN TABLE *****************************
 Prompt
 
-@./Table_delivery_man
+@Tables/Table_delivery_man
 
 Prompt
 Prompt***************************** CREATION OF THE LOCATIONS TABLE *****************************
 Prompt
 
-@./Table_locations
+@Tables/Table_locations
 
 Prompt
 Prompt***************************** CREATION OF THE MEAL TABLE *****************************
 Prompt
 
-@./Table_meal
+@Tables/Table_meal
 
 Prompt
 Prompt***************************** CREATION OF THE ORDERS TABLE *****************************
 Prompt
 
-@./Table_orders
+@Tables/Table_orders
 
 Prompt
 Prompt***************************** CREATION OF THE PAYMENT TABLE *****************************
 Prompt
 
-@./Table_payment
+@Tables/Table_payment
 
 Prompt
 Prompt***************************** CREATION OF THE RESTAURANT TABLE *****************************
 Prompt
 
-@./Table_restaurant
+@Tables/Table_restaurant
 
 Prompt
 Prompt***************************** CREATION OF THE ROLES TABLE *****************************
 Prompt
 
-@./Table_roles
+@Tables/Table_roles
 
-
-Prompt
-spool OFF;
