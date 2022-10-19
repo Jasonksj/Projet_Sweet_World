@@ -1,6 +1,6 @@
-SET VERIFY OFF
-SET LINESIZE 3000
-SET PAGESIZE 1000
+ALTER SESSION SET NLS_LANGUAGE=English;
+ALTER SESSION SET NLS_TERRITORY=America;
+ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY'
 
 Prompt
 Prompt***************************** CONSTRAINT CREATION FOR SWEET_WORLD SCHEMA *****************************
@@ -11,49 +11,49 @@ Prompt
 Prompt***************************** CONSTRAINT OF THE CUSTOMERS TABLE *****************************
 Prompt
 
-@./Constraint_customers
+@Tables/Constraints/Constraint_customers
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE ADDRESS TABLE *****************************
 Prompt
 
-@./Constraint_address
+@Tables/Constraints/Constraint_address
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE CATEGORY TABLE *****************************
 Prompt
 
-@./Constraint_category
+@Tables/Constraints/Constraint_category
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE DELIVERY_MAN TABLE *****************************
 Prompt
 
-@./Constraint_delivery_man
+@Tables/Constraints/Constraint_delivery_man
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE LOCATION TABLE *****************************
 Prompt
 
-@./Constraint_location
+@Tables/Constraints/Constraint_location
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE MEAL TABLE *****************************
 Prompt
 
-@./Constraint_meal
+@Tables/Constraints/Constraint_meal
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE ORDERS TABLE *****************************
 Prompt
 
-@./Constraint_orders
+@Tables/Constraints/Constraint_orders
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE PAYMENT TABLE *****************************
 Prompt
 
-@./Constraint_payment
+@Tables/Constraints/Constraint_payment
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE RESTAURANT TABLE *****************************
@@ -65,8 +65,5 @@ Prompt
 Prompt***************************** CONSTRAINT OF THE ROLE TABLE *****************************
 Prompt
 
-@./Constraint_role
+@Tables/Constraints/Constraint_role
 
-
-Prompt
-spool OFF;
