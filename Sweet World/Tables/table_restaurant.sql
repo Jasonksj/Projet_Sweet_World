@@ -4,6 +4,7 @@ CREATE TABLE restaurants
       description VARCHAR(255) ,
       nom_employe  VARCHAR2(255) NOT NULL,
       latitude VARCHAR(25),
-      longitude VARCHAR(25)        
+      longitude VARCHAR(25),
+      N°cmd INTEGER(10)        
     );
     --***********BY TATSINKOU**********--
