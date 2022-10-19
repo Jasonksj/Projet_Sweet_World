@@ -1,16 +1,9 @@
-ALTER TABLE restaurants
-ADD ( CONSTRAINT fk_restaurants
-        	 FOREIGN KEY (N°cmd)
-          	  REFERENCES commandes(N°cmd)
-    ) ;
-ALTER TABLE restaurants
-ADD ( CONSTRAINT fk_restaurants
-             FOREIGN KEY (latitude)
-              REFERENCES localisations(latitude)
-    ) ;
-ALTER TABLE restaurants
-ADD ( CONSTRAINT fk_restaurants
-             FOREIGN KEY (longitude)
-              REFERENCES localisations(longitude)
+ALTER TABLE Restaurant
+ADD ( CONSTRAINT fk_restaurant
+        	 FOREIGN KEY (id_order)
+          	  REFERENCES Orders(id_order)
+        CONSTRAINT location_add_fk
+		FOREIGN KEY (latitude, longitude)
+		REFERENCES locations(latitude, longitude),
     ) ;
 --***********BY TATSINKOU**********--
