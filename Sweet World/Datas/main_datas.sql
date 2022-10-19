@@ -1,17 +1,69 @@
-Prompt ******  Populating CLIENTS restaurants ....
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0001,'Friends Food','Fast-food','Gilbert',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0002,'5 Fourchettes','Un peu de tout','Albert',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0003,'Lynk','bar-restaurant','Bernard',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0004,'LA PIZZERIA','PIZZA','Alfredo',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0005,'Saga Africa','Mets Africain','Jason',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0006,'L Italien-Piccola Venezia','Restau Italien','Crispin',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0007,'Traditional-food','Mets Africain','Stephanie',"4°03'Nord","9°42'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0008,'Le Socrate','Un peu de tout','Yvan',"3°50'29.04 Nord", "11°29'31.56'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0009,'C-PIZZA','PIZZA','Nathan',"3°50'29,04 Nord", "11°29'31,56'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0010,'K.MyChoice','Fast-food','Maxime',"3°50'29.04 Nord", "11°29'31.56'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0011,'Tchop&Yamo','Fast-food','Calvine',"3°50'29.04 Nord", "11°29'31.56'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0012,'Hilton','Restaurants-chics','Manuel',"3°50'29.04 Nord", "11°29'31.56'Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0013,'Restaurant SIM','Mets Traditionnel','Stephane',"5°28'nord","10°25'est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0014,'Le plaisir du Gout Pizzeria','PIZZA','Kabhy',"2°56' 14.1 Nord","9°54'27.5 Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0015,'Ebene plus','Mets Africain','Nono',"2°56' 14.1 Nord","9°54'27.5 Est");
-INSERT INTO restaurants(id_restau,nom_restau,description,nom_employe,latitude,longitude)VALUES(0016,'Pieds dans l eau','aliment marin','Estebane',"2°56' 14.1 Nord","9°54'27.5 Est");
+ALTER SESSION SET NLS_LANGUAGE=English;
+ALTER SESSION SET NLS_TERRITORY=America;
+ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY'
+
+Prompt
+Prompt***************************** POPULATING SWEET_WORLD SCHEMA *****************************
+Prompt
+
+
+Prompt
+Prompt***************************** POPULATING CUSTOMERS TABLE *****************************
+Prompt
+
+@Datas/Datas_customers
+
+Prompt
+Prompt***************************** POPULATING ADDRESS TABLE *****************************
+Prompt
+
+@Datas/Datas_address
+
+Prompt
+Prompt***************************** POPULATING CATEGORY TABLE *****************************
+Prompt
+
+@Datas/Datas_category
+
+Prompt
+Prompt***************************** POPULATING DELIVERY_MAN TABLE *****************************
+Prompt
+
+@Datas/Datas_delivery_man
+
+Prompt
+Prompt***************************** POPULATING LOCATIONS TABLE *****************************
+Prompt
+
+@Datas/Datas_locations
+
+Prompt
+Prompt***************************** POPULATING MEAL TABLE *****************************
+Prompt
+
+@Datas/Datas_meal
+
+Prompt
+Prompt***************************** POPULATING ORDERS TABLE *****************************
+Prompt
+
+@Datas/Datas_orders
+
+Prompt
+Prompt***************************** POPULATING PAYMENT TABLE *****************************
+Prompt
+
+@Datas/Datas_payment
+
+Prompt
+Prompt***************************** POPULATING RESTAURANT TABLE *****************************
+Prompt
+
+@Datas/Datas_restaurant
+
+Prompt
+Prompt***************************** POPULATING ROLES TABLE *****************************
+Prompt
+
+@Datas/Datas_roles
+

@@ -5,4 +5,4 @@ ADD (
         CONSTRAINT fk_Delivery_man
         FOREIGN KEY (id_order)
         REFERENCES Orders(id_order )
-    ) ;
+    );
