@@ -32,10 +32,10 @@ Prompt
 @Tables/Constraints/Constraint_delivery_man
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE LOCATION TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE LOCATIONS TABLE *****************************
 Prompt
 
-@Tables/Constraints/Constraint_location
+@Tables/Constraints/Constraint_locations
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE MEAL TABLE *****************************

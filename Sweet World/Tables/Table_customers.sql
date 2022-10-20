@@ -1,4 +1,5 @@
-CREATE TABLE Customers(
+CREATE TABLE Customers
+(
     id_cust INT NOT NULL,
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
