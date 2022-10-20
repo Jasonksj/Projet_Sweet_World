@@ -65,5 +65,5 @@ Prompt
 Prompt***************************** CONSTRAINT OF THE ROLE TABLE *****************************
 Prompt
 
-@Tables/Constraints/Constraint_role
+@Tables/Constraints/Constraint_roles
 

@@ -1,30 +1,30 @@
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Samy','Bodio',690239771,'samybodio2@gmail.com',01/05/2021);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(1,'Samy','Bodio',690239771,'samybodio2@gmail.com',TO_DATE('01/05/2021', 'DD/MM/YYYY'),1,1);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Alix','Audrey',690642527,'alixaudrey@gmail.com',03/05/2021);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(2,'Alix','Audrey',690642527,'alixaudrey@gmail.com',TO_DATE('03/05/2021', 'DD/MM/YYYY'),2,2);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Ntanguen','Evrad',690020305,'evradntanguen@gmail.com',07/12/2009);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(3,'Ntanguen','Evrad',690020305,'evradntanguen@gmail.com',TO_DATE('07/12/2009', 'DD/MM/YYYY'),3,3);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Kenchoung','Sadio',699999999,'danySadio@gmail.com',08/07/2020);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(4,'Kenchoung','Sadio',699999999,'danySadio@gmail.com',TO_DATE('08/07/2020', 'DD/MM/YYYY'),4,4);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Abdel','Nabil',690858123,'abdelnabil@gmail.com',01/10/2016);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(5,'Abdel','Nabil',690858123,'abdelnabil@gmail.com',TO_DATE('01/10/2016', 'DD/MM/YYYY'),5,5);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Njoya','Fadil',676023516,'Njoyafadil@gmail.com',06/08/2005);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(6,'Njoya','Fadil',676023516,'Njoyafadil@gmail.com',TO_DATE('06/08/2005', 'DD/MM/YYYY'),6,6);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Oumarou','Adamou',693050296,'Oumarouadamou@gmail.com',08/12/2020);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(7,'Oumarou','Adamou',693050296,'Oumarouadamou@gmail.com',TO_DATE('08/12/2020', 'DD/MM/YYYY'),7,7);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Aifouda','Blama',690239881,'aifoudablama@gmail.com',01/02/2003);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(8,'Aifouda','Blama',690239881,'aifoudablama@gmail.com',TO_DATE('01/02/2003', 'DD/MM/YYYY'),8,8);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Tedom','Keurtis',676820203,'Tedomkeurtis@gmail.com',12/11/2017);
-INSERT INTO Customers(first_name,last_name,phone_number,Email,Datecd_cust)
+(9,'Tedom','Keurtis',676820203,'Tedomkeurtis@gmail.com',TO_DATE('12/11/2017', 'DD/MM/YYYY'),9,9);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,id_address,id_role)
 VALUES
-('Mirabelle','Ngwakan',690805060,'mirabellegwakan@gmail.com',29/09/2012);
+(10,'Mirabelle','Ngwakan',690805060,'mirabellegwakan@gmail.com',TO_DATE('29/09/2012', 'DD/MM/YYYY'),10,10);
