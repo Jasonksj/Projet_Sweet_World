@@ -7,6 +7,5 @@ ADD(
             references Address(id_address),
     CONSTRAINT fk_id_role
         foreign key (id_role)
-            references Roles(id_role),
-
+            references Roles(id_role)
 );

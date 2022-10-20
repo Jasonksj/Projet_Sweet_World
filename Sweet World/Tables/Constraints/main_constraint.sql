@@ -59,7 +59,7 @@ Prompt
 Prompt***************************** CONSTRAINT OF THE RESTAURANT TABLE *****************************
 Prompt
 
-@./Constraint_restaurant
+@Tables/Constraints/Constraint_restaurant
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE ROLE TABLE *****************************
