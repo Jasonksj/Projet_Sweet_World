@@ -9,4 +9,14 @@ VALUES
 ('Oumarou','Adamou',693050296,'Oumarouadamou@gmail.com',08/12/2020),
 ('Aifouda','Blama',690239881,'aifoudablama@gmail.com',01/02/2003),
 ('Tedom','Keurtis',676820203,'Tedomkeurtis@gmail.com',12/11/2017),
-('Mirabelle','Ngwakan',690805060,'mirabellegwakan@gmail.com',29/09/2012);
+('Mirabelle','Ngwakan',690805060,'mirabellegwakan@gmail.com',29/09/2012),
+('Samuel','Nathan',690186547,'samuelnathan2@gmail.com',25/05/2021),
+('Djidjou','Audrey',656642527,'djidjouaudrey@gmail.com',03/04/2015),
+('Ntanguen','Evrad',690020305,'evradntanguen@gmail.com',07/02/2009),
+('Mba','Makam',699984999,'MbaMakam@gmail.com',08/07/2009),
+('bolo','valid',659858123,'bolovalid@gmail.com',01/10/2015),
+('joyce','nkound',65692516,'joycenkound@gmail.com',06/08/2005),
+('Leonel','David',693055974,'LeonelDavid@gmail.com',08/12/2020),
+('Leslie','Ivanka',690859881,'LeslieIvanka@gmail.com',01/02/2003),
+('Ariel','valdes',676820203,'Arielvaldes@gmail.com',04/04/2017),
+('Steven','Poala',690805060,'StevenPoala@gmail.com',29/09/2012);
