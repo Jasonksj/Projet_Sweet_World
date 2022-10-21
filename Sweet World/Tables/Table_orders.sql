@@ -1,10 +1,9 @@
-Prompt ****** Creating orders table .....
-
-CREATE TABLE Orders (
-    id_orders       int      not null,
-    order_date      date             not null,
-    quantity        int      not null , 
-    id_cust         int      not null, 
-    id_meal         int      not null    ,
-    id_payment      int       not null
+CREATE TABLE Orders(
+    id_order        INT      NOT NULL,
+    order_date      DATE     NOT NULL,
+    quantity        INT      NOT NULL, 
+    id_cust         INT      NOT NULL, 
+    id_meal         INT      NOT NULL,
+    id_payment      INT      NOT NULL
 );
+--***** BY FOTSO *****--

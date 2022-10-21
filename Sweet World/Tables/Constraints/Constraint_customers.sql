@@ -1,12 +1,12 @@
 ALTER TABLE Customers
 ADD(
-    CONSTRAINT id_cust_pk
-        Primary key (id_cust),
+    CONSTRAINT id_cust_pk 
+        PRIMARY KEY(id_cust),
     CONSTRAINT fk_id_address
-        foreign key (id_address)
-            references Address(id_address),
+        FOREIGN KEY (id_address) 
+            REFERENCES Address(id_address),
     CONSTRAINT fk_id_role
-        foreign key (id_role)
-            references Roles(id_role),
-
+        FOREIGN KEY (id_role)
+            REFERENCES Roles(id_role)
 );
+/* Cree par Samy Bodio */

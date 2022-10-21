@@ -28,3 +28,4 @@ ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
 
 @Datas/main_datas
 
+select table_name from user_tables;

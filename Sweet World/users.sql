@@ -23,6 +23,6 @@ CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
 GRANT execute ON sys.dbms_stats TO sw;
 
 REM =================================================================================
-REM create opencv schema objects
+REM create sw schema objects
 REM ==================================================================================
 CONNECT sw/&pass@&connect_string
