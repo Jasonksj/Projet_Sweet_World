@@ -5,7 +5,7 @@ ADD
 	    PRIMARY KEY(id_resto),
 	CONSTRAINT fk_restaurant
         FOREIGN KEY (id_order)
-        REFERENCES Orders(id_order),
+        REFERENCES orders(id_order),
     CONSTRAINT Location_add_fk
 		FOREIGN KEY (latitude, longitude)
 		REFERENCES locations(latitude, longitude),
