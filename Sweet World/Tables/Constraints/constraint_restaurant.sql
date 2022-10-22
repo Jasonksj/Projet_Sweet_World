@@ -5,8 +5,6 @@ ALTER TABLE Restaurant ADD
    CONSTRAINT fk_restaurant
         FOREIGN KEY (id_order)
         REFERENCES Orders(id_order),
-   CONSTRAINT Location_fk
-        REFERENCES orders(id_order),
    CONSTRAINT Roles_fk
 		FOREIGN KEY (id_role)
 		REFERENCES Roles(id_role)
