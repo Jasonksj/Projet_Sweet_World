@@ -1,7 +1,7 @@
 CREATE TABLE Customers
 (
     id_cust INT NOT NULL,
-    username VARCHAR(10) 
+    username VARCHAR(10) ,
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
     phone_number NUMBER NOT NULL,
