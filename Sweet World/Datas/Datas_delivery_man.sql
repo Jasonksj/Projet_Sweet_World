@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSERT INTO Delivery_man(id_deliv_man,Name,phone_deliv_man) VALUES (0001,'FOTSO',677258125);
 INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0002,'KAMSU',693027355);
 INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0003,'Evrad',697127355);
@@ -18,3 +19,47 @@ INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0017,'Ngwak
 INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0018,'Tedom',693125478);
 INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0019,'Ebonke',677859636);
 INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man) VALUES (0020,'Kenchoung',698741236);
+=======
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0001);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0002);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0003);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0004);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0005);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,FOTSO,677258125,0006);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0002,KAMSU,693027355,0007);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0002,KAMSU,693027355,0008);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0002,KAMSU,693027355,0009);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0002,KAMSU,693027355,0010);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0002,KAMSU,693027355,0011);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0004,'Evrad',697127355,0012);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0004,'Evrad',697127355,0013);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0005,'Samy',693027342,0014);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0005,'Samy',693027342,0015);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0006,'Njoya',680254123,0016);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0006,'Njoya',680254123,0017);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0007,'Tedom',693125478,0018);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0008,'Mirabelle',612345678,0019);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0009,'Kenchoung',698741236,0020);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,'FOTSO',677258125,0021);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0001,'FOTSO',677258125,0022);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0007,'Tedom',693125478,0023);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0010,'Ebonke',677859636,0024);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0011,'Keurtis',647257896,0025);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0012,'Marie',678951236,0026);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0013,'Paul',678521458,0027);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0014,'Nabil',698124578,0028);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0015,'Nilis',243859456,0029);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0016,'Ngwakan',678451269,0030); 
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0016,'Ngwakan',678451269,0031); 
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0016,'Ngwakan',678451269,0032); 
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0016,'Ngwakan',678451269,0033);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0007,'Tedom',693125478,0034);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0007,'Tedom',693125478,0035);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0010,'Ebonke',677859636,0036);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0010,'Ebonke',677859636,0037);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0009,'Kenchoung',698741236,0038);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0009,'Kenchoung',698741236,0039);
+INSERT INTO Delivery_man (id_deliv_man,Name,phone_deliv_man,id_order) VALUES (0009,'Kenchoung',698741236,0040);
+
+--******* By FOTSO ******--
+>>>>>>> acaff855b6864f076cba93f7b8cd54aced155f22
