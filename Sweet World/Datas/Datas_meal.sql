@@ -2,8 +2,8 @@ Prompt***** Populating Meal .......
 
 
 /* Fast food*/
-INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (1,'Hamburger',1500,'....',1);
-INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (2,'Cheese burger',2000,'....',1);
+INSERT INTO Meal ( id_meal , Name_meal , Price , description, Date_meal , id_category) VALUES (1,'Hamburger',1500,'....',TO_DATE('01/01/2022','DD/MM/YYYY') ,1);
+INSERT INTO Meal ( id_meal , Name_meal , Price , description , Date_meal , id_category) VALUES (2,'Cheese burger',2000,'....',TO_DATE('02/01/2022','DD/MM/YYYY') ,1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (3,'Double cheese burger',2500,'....',1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (4,'Triple cheese burger',3500,'....',1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (5,'Banana burger',2000,'....',1);
