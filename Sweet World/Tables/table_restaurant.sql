@@ -16,8 +16,6 @@ CREATE TABLE Restaurant
       Name_employees   VARCHAR2(30) NOT NULL,
       Date_res_created DATE          NOT NULL,
       id_order         INT           NOT NULL,
-      latitude         VARCHAR2(25)  NOT NULL,
-      longitude        VARCHAR2(25)  NOT NULL,
       id_role          INT           NOT NULL       
     );
     
