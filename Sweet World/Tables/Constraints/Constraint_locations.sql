@@ -1,6 +1,6 @@
 ALTER TABLE Locations
 ADD 
-(   CONSTRAINT Location_pk
+(   CONSTRAINT Locations_pk
 	    PRIMARY KEY(latitude,longitude)
 );
 --***********BY TATSINKOU**********--
