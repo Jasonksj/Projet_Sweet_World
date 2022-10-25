@@ -1,8 +1,12 @@
+--client 1--
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0001,TO_DATE('02/01/2022', 'DD/MM/YYYY'),1,1,1,1,0001);
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0041,TO_DATE('05/04/2022', 'DD/MM/YYYY'),3,1,7,2,0009);
+
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0002,TO_DATE('02/01/2022', 'DD/MM/YYYY'),2,2,2,2,0002);
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0003,TO_DATE('02/01/2022', 'DD/MM/YYYY'),3,3,3,3,0004);
+
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0004,TO_DATE('06/02/2022', 'DD/MM/YYYY'),10,4,4,1,0003);
+
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0005,TO_DATE('06/02/2022', 'DD/MM/YYYY'),6,5,5,2,0003);
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0006,TO_DATE('18/02/2022', 'DD/MM/YYYY'),5,6,6,3,0020);
 INSERT INTO Orders(id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man) VALUES (0007,TO_DATE('18/03/2022', 'DD/MM/YYYY'),2,7,7,1,0007);
