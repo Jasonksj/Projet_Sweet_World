@@ -1,3 +1,4 @@
+
 ---client 1---
 
 INSERT INTO Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment) VALUES (0001,TO_DATE('02/01/2019', 'DD/MM/YYYY'),1,1,1,1);
@@ -125,4 +126,5 @@ INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment) VA
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment) VALUES (0086,TO_DATE('10/07/2022', 'DD/MM/YYYY'),40,39,39,2);
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment) VALUES (0087,TO_DATE('10/10/2022', 'DD/MM/YYYY'),40,40,40,4);
 
------****by fotso ***---
+
+----- by fotso ----

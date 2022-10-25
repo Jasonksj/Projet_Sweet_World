@@ -20,3 +20,9 @@ ADD
     CONSTRAINT fk_id_payment
         FOREIGN KEY (id_payment)
         REFERENCES Payment(id_payment);
+
+ALTER TABLE Orders
+ADD 
+    CONSTRAINT fk_id_deliv_man
+        FOREIGN KEY (id_deliv_man)
+        REFERENCES Delivery_man(id_deliv_man);

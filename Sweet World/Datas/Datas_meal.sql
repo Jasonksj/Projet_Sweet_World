@@ -2,8 +2,8 @@ Prompt***** Populating Meal .......
 
 
 /* Fast food*/
-INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (1,'Hamburger',1500,'....',1);
-INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (2,'Cheese burger',2000,'....',1);
+INSERT INTO Meal ( id_meal , Name_meal , Price , description, Date_meal , id_category) VALUES (1,'Hamburger',1500,'....',TO_DATE('01/01/2022','DD/MM/YYYY') ,1);
+INSERT INTO Meal ( id_meal , Name_meal , Price , description , Date_meal , id_category) VALUES (2,'Cheese burger',2000,'....',TO_DATE('02/01/2022','DD/MM/YYYY') ,1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (3,'Double cheese burger',2500,'....',1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (4,'Triple cheese burger',3500,'....',1);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (5,'Banana burger',2000,'....',1);
@@ -31,7 +31,7 @@ INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALU
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (23,'Salade fine',1500,'....',3);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (24,'Salade au poulet',2000,'....',3);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (25,'Salade au jambon',2000,'....',3);
-INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (26 'Salade aux crevettes',2500,'....',3);
+INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (26, 'Salade aux crevettes',2500,'....',3);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (27,'Salade de papel',3000,'....',3);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (28,'Salade exotique aux crevettes',3500,'....',3);
 INSERT INTO Meal ( id_meal , Name_meal , Price , description , id_category) VALUES (29,'Salade de crudites',3000,'....',3);
