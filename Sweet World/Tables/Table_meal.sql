@@ -12,7 +12,6 @@ CREATE TABLE MEAL
    Name_meal   VARCHAR(40)  NOT NULL,
    Price       NUMBER        NOT NULL,
    description VARCHAR(100),
-   Date_meal   DATE          NOT NULL,
    id_category INT           NOT NULL
 );
 /* Cree par annaellejosee13*/
