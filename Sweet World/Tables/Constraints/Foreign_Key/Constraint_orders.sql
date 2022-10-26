@@ -1,10 +1,5 @@
 ALTER TABLE Orders
 ADD 
-    CONSTRAINT id_order_pk
-		PRIMARY KEY(id_order);
-
-ALTER TABLE Orders
-ADD 
     CONSTRAINT fk_id_cust
         FOREIGN KEY (id_cust)
         REFERENCES Customers(id_cust);

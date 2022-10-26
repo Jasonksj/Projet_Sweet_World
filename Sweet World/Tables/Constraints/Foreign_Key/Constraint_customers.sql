@@ -1,9 +1,4 @@
 ALTER TABLE Customers
-ADD
-    CONSTRAINT id_cust_pk 
-        PRIMARY KEY(id_cust);
-
-ALTER TABLE Customers
 ADD       
     CONSTRAINT fk_id_address
         FOREIGN KEY (id_address)

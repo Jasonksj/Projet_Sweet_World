@@ -2,6 +2,14 @@ Prompt
 Prompt***************************** INSTALLING SWEET_WORLD SCHEMA *****************************
 Prompt
 
+SET FEEDBACK 1
+SET NUMWIDTH 10
+SET LINESIZE 3000
+SET TRIMSPOOL ON
+SET TAB OFF
+SET PAGESIZE 100
+SET ECHO OFF
+
 ALTER SESSION SET NLS_LANGUAGE=English;
 ALTER SESSION SET NLS_TERRITORY=America;
 ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
@@ -20,7 +28,9 @@ ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
 -- create index and constraints
 --
 
-@Tables/Constraints/main_constraint
+@Tables/Constraints/Primary_Key/main_Primary_Key
+
+@Tables/Constraints/Foreign_Key/main_Foreign_Key
 
 --
 -- populate tables

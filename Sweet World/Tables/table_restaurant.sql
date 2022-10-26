@@ -12,12 +12,12 @@ CREATE TABLE Restaurant
       username_resto   VARCHAR(30)   NOT NULL,
       password         VARCHAR(30)   NOT NULL,
       Name_resto       VARCHAR(30)   NOT NULL,
-      Description      VARCHAR(100),
-      Name_employees   VARCHAR(30)   NOT NULL,
+      Description      VARCHAR(40),
+      Name_employees   VARCHAR(25)   NOT NULL,
       Date_res_created DATE          NOT NULL,
       id_role          INT           NOT NULL,
-      latitude    VARCHAR2(25)       NOT NULL,
-      longitude   VARCHAR2(25)       NOT NULL   
+      latitude    VARCHAR2(10)       NOT NULL,
+      longitude   VARCHAR2(10)       NOT NULL   
     );
     
     --***********BY TATSINKOU**********--

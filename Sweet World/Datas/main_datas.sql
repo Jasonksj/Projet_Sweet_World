@@ -6,13 +6,6 @@ Prompt
 Prompt***************************** POPULATING SWEET_WORLD SCHEMA *****************************
 Prompt
 
-
-Prompt
-Prompt***************************** POPULATING CUSTOMERS TABLE *****************************
-Prompt
-
-@Datas/Datas_customers
-
 Prompt
 Prompt***************************** POPULATING ADDRESS TABLE *****************************
 Prompt
@@ -20,10 +13,17 @@ Prompt
 @Datas/Datas_address
 
 Prompt
+Prompt***************************** POPULATING ROLES TABLE *****************************
+Prompt
+
+@Datas/Datas_roles
+
+Prompt
 Prompt***************************** POPULATING CATEGORY TABLE *****************************
 Prompt
 
 @Datas/Datas_category
+
 
 Prompt
 Prompt***************************** POPULATING DELIVERY_MAN TABLE *****************************
@@ -38,6 +38,24 @@ Prompt
 @Datas/Datas_locations
 
 Prompt
+Prompt***************************** POPULATING PAYMENT TABLE *****************************
+Prompt
+
+@Datas/Datas_payment
+
+Prompt
+Prompt***************************** POPULATING CUSTOMERS TABLE *****************************
+Prompt
+
+@Datas/Datas_customers
+
+Prompt
+Prompt***************************** POPULATING RESTAURANT TABLE *****************************
+Prompt
+
+@Datas/Datas_restaurant
+
+Prompt
 Prompt***************************** POPULATING MEAL TABLE *****************************
 Prompt
 
@@ -49,21 +67,7 @@ Prompt
 
 @Datas/Datas_orders
 
-Prompt
-Prompt***************************** POPULATING PAYMENT TABLE *****************************
-Prompt
 
-@Datas/Datas_payment
 
-Prompt
-Prompt***************************** POPULATING RESTAURANT TABLE *****************************
-Prompt
 
-@Datas/Datas_restaurant
-
-Prompt
-Prompt***************************** POPULATING ROLES TABLE *****************************
-Prompt
-
-@Datas/Datas_roles
 

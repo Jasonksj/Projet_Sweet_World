@@ -1,9 +1,4 @@
 ALTER TABLE Restaurant
-ADD 
-	CONSTRAINT Restaurant_pk
-	    PRIMARY KEY(id_resto);
-
-ALTER TABLE Restaurant
 ADD
 	CONSTRAINT fk_Roles
 		FOREIGN KEY (id_role)
