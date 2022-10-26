@@ -9,6 +9,6 @@ SET ECHO OFF
 CREATE TABLE Address 
 (
   id_address INT      NOT NULL,
-  Place VARCHAR2(50) NOT NULL
+  Place VARCHAR(50) NOT NULL
 );
  --******BY KANGUE*******--

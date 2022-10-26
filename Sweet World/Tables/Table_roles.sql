@@ -9,6 +9,6 @@ SET ECHO OFF
 CREATE TABLE Roles
 (
     id_role  INT          NOT NULL,
-    role     VARCHAR2(5) NOT NULL
+    role     VARCHAR(5)   NOT NULL
 );
 /* Cree par Samy Bodio */

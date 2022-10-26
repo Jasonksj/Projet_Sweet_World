@@ -26,3 +26,9 @@ ADD
     CONSTRAINT fk_id_deliv_man
         FOREIGN KEY (id_deliv_man)
         REFERENCES Delivery_man(id_deliv_man);
+
+ALTER TABLE Orders
+ADD 
+    CONSTRAINT fk_id_resto
+        FOREIGN KEY (id_resto)
+        REFERENCES Restaurant(id_resto);

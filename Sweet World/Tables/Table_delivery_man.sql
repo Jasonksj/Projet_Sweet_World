@@ -9,7 +9,7 @@ SET ECHO OFF
 CREATE TABLE Delivery_man
 (
     id_deliv_man     INT          NOT NULL,
-    Name             VARCHAR2(25) NOT NULL,
+    Name             VARCHAR(25)  NOT NULL,
     phone_deliv_man  NUMBER       NOT NULL
 );
 

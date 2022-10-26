@@ -1,0 +1,2 @@
+INSERT INTO Customers(id_cust,username,first_name,last_name,phone_number,Email,Datecd_cust,password_cust,id_address,id_role)
+VALUES (&id_cust,'&username','&first_name','&last_name',&phone_number,'&Email','&Datecd_cust','&password_cust',&id_address,&id_role);

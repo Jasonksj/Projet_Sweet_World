@@ -9,7 +9,7 @@ SET ECHO OFF
 CREATE TABLE Payment 
 (
   id_payment     INT          NOT NULL,
-  payment_method VARCHAR2(25) NOT NULL
+  payment_method VARCHAR(25) NOT NULL
 );
 
  --******BY KANGUE*******--
