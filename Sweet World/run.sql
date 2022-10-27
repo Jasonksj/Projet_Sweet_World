@@ -38,6 +38,10 @@ ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
 
 @Datas/main_datas
 
+Prompt
+Prompt *******************************************************************JASON   KAMSU*************************************************************************
+Prompt
+
 select table_name from user_tables;
 
 SELECT * FROM ADDRESS;
@@ -53,5 +57,6 @@ SELECT * FROM ROLES;
 --
 -- BY JASON KAMSU
 --
-
-Prompt *******JASON KAMSU********
+Prompt
+Prompt *******************************************************************JASON   KAMSU*************************************************************************
+Prompt
