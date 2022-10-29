@@ -8,5 +8,5 @@ Email = '&newEmail',
 Datecd_cust = '&new_Datecd_cust',
 password_cust = '&new_password_cust',
 id_address = &new_id_address,
-id_role = &new_id_role,
+id_role = &new_id_role
 WHERE id_cust = &id_custl;
