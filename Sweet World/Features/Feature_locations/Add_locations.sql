@@ -1,2 +1,2 @@
-INSERT INTO Locations(latitude,longitude,Street,Postal_code,City)
-VALUES('&latitude','&longitude','&Street','&Postal_code','&City');
+INSERT INTO Locations(latitude,longitude,City)
+VALUES('&latitude','&longitude','&City');
