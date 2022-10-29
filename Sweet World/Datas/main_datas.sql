@@ -38,6 +38,13 @@ Prompt
 @Datas/Datas_locations
 
 Prompt
+Prompt***************************** POPULATING POSITIONS TABLE *****************************
+Prompt
+
+@Datas/Datas_positions
+
+
+Prompt
 Prompt***************************** POPULATING PAYMENT TABLE *****************************
 Prompt
 

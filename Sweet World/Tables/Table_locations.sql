@@ -10,8 +10,6 @@ CREATE TABLE Locations
 ( 
       latitude    VARCHAR2(20) NOT NULL,
       longitude   VARCHAR2(20) NOT NULL,
-      Street      VARCHAR2(25) NOT NULL,
-      Postal_code VARCHAR2(25),
       City        VARCHAR2(25) NOT NULL
 );
     --***********BY TATSINKOU**********--

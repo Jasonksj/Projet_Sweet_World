@@ -32,6 +32,12 @@ Prompt
 @Tables/Table_delivery_man
 
 Prompt
+Prompt***************************** CREATION OF THE POSITIONS TABLE *****************************
+Prompt
+
+@Tables/Table_positions
+
+Prompt
 Prompt***************************** CREATION OF THE LOCATIONS TABLE *****************************
 Prompt
 

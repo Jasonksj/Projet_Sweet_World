@@ -8,9 +8,13 @@ SET ECHO OFF
 
 CREATE TABLE Delivery_man
 (
-    id_deliv_man     INT          NOT NULL,
-    Name             VARCHAR(25)  NOT NULL,
-    phone_deliv_man  NUMBER       NOT NULL
+    id_deliv_man      INT          NOT NULL,
+    first_name_deliv  VARCHAR(25)  NOT NULL,
+    last_name_deliv   VARCHAR(25)  NOT NULL,
+    phone_deliv_man   NUMBER       NOT NULL,
+    email             VARCHAR(40)  NOT NULL,
+    date_of_birth     DATE         NOT NULL,
+    Salary            NUMBER       NOT NULL
 );
 
 --***** BY FOTSO *****--

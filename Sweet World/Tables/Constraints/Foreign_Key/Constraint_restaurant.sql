@@ -6,8 +6,8 @@ ADD
 
 ALTER TABLE Restaurant
 ADD
-	CONSTRAINT fk_locations
-		FOREIGN KEY (latitude, longitude)
-		REFERENCES Locations(latitude, longitude);
+	CONSTRAINT fk_positions
+		FOREIGN KEY (id_position)
+		REFERENCES Positions(id_position);
 
 --***********BY TATSINKOU**********--

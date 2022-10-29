@@ -38,7 +38,7 @@ INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0033,TO_DATE('06/06/2019', 'DD/MM/YYYY'),1,10,27,3,0011,0016);
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0043,TO_DATE('12/09/2019', 'DD/MM/YYYY'),4,10,24,4,0015,0012);
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0046,TO_DATE('20/11/2019', 'DD/MM/YYYY'),3,10,25,5,0003,0016);
-INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0053,TO_DATE('10/01/2020', 'DD/MM/YYYY'),1,10,26,2,0020,0011);
+INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0053,TO_DATE('10/01/2020', 'DD/MM/YYYY'),1,10,26,2,0010,0011);
 ----- client 11-------
 INSERT INTO  Orders (id_order,order_date,quantity,id_cust,id_meal,id_payment,id_deliv_man,id_resto) VALUES (0074,TO_DATE('26/05/2021', 'DD/MM/YYYY'),1,11,42,2,0018,0007);
 ----- client 12 -----
