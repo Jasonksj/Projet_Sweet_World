@@ -115,6 +115,4 @@ VALUES
 INSERT INTO Customers(id_cust,username,first_name,last_name,phone_number,Email,Datecd_cust,password_cust,id_address,id_role)
 VALUES
 (39,'Ariel2Bh','Ariel2','valdes',676820203,'Arielvaldes@gmail.com',TO_DATE('10/08/2021','DD/MM/YYYY'),'ksfdt10',39,2);
-INSERT INTO Customers(id_cust,username,first_name,last_name,phone_number,Email,Datecd_cust,password_cust,id_address,id_role)
-VALUES
-(40,'SteveBh','Steve','Shado',690805222,'Steveshado@gmail.com',TO_DATE('30/01/2022','DD/MM/YYYY'),'fskfg86',6,2);
+
