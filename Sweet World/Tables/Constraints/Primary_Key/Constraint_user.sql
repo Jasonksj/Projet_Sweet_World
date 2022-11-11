@@ -1,6 +1,6 @@
-ALTER TABLE Address
+ALTER TABLE User
 ADD
-    CONSTRAINT id_address_pk
-		PRIMARY KEY(id_address);
-    
- --******BY KANGUE*******--
+    CONSTRAINT User_pk
+		PRIMARY KEY(id_user);
+
+--***********BY TATSINKOU**********--
