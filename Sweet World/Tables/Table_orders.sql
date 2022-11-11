@@ -8,12 +8,9 @@ SET ECHO OFF
 
 CREATE TABLE Orders(
     id_order        INT      NOT NULL,
-    order_date      DATE     NOT NULL,
-    Quantity        INT      NOT NULL, 
-    id_cust         INT      NOT NULL, 
-    id_meal         INT      NOT NULL,
-    id_payment      INT      NOT NULL,
-    id_deliv_man    INT      NOT NULL,
-    id_resto        INT      NOT NULL
+    order_date      DATE     NOT NULL, 
+    id_resto        INT      NOT NULL, 
+    id_panier        INT      NOT NULL
+   
 );
 --***** BY FOTSO *****--

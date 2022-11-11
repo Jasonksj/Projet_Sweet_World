@@ -1,6 +1,6 @@
-ALTER TABLE Locations
+ALTER TABLE Panier
 ADD 
-(   CONSTRAINT Locations_pk
-	    PRIMARY KEY(latitude,longitude)
+(   CONSTRAINT id_panier_pk
+	    PRIMARY KEY(id_panier)
 );
---***********BY TATSINKOU**********--
+--***********BY FOTSO**********--

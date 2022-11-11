@@ -6,12 +6,10 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF
 
-CREATE TABLE Positions
+CREATE TABLE Panier
 (
-    id_position  INT          NOT NULL,
-    Street       VARCHAR(27)  NOT NULL,
-    Postal_code  VARCHAR(25)          ,
-    latitude     VARCHAR(20)  NOT NULL,
-    longitude    VARCHAR(20)  NOT NULL
+    id_panier  INT          NOT NULL,
+   id_cust     INT          NOT NULL,
+   id_menu     INT          NOT NULL
 );
-/* Cree par Samy Bodio */
+/* Cree par Fotso */
