@@ -6,10 +6,11 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF
 
-CREATE TABLE Category
+CREATE TABLE Note
 (
-    id_category INT        NOT NULL,
-    Name_cat VARCHAR(20) NOT NULL
+    id_note INT        NOT NULL,
+    Valeur VARCHAR(20) NOT NULL,
+    id_cust INT NOT NULL
 );
-/* Cree par annaellejosee13*/
+/* Cree par Samy-Bodio*/
 

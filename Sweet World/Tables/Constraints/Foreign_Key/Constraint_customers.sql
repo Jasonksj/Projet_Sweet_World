@@ -1,13 +1,7 @@
 ALTER TABLE Customers
-ADD       
-    CONSTRAINT fk_id_address
-        FOREIGN KEY (id_address)
-        REFERENCES Address(id_address);
-
-ALTER TABLE Customers
 ADD                  
-    CONSTRAINT fk_id_role
-        FOREIGN KEY (id_role)
-            REFERENCES Roles(id_role);
+    CONSTRAINT fk_id_user
+        FOREIGN KEY (id_user)
+            REFERENCES User(id_user);
             
 /* Cree par Samy Bodio */
