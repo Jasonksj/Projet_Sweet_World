@@ -6,9 +6,10 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF
 
-CREATE TABLE Address 
+CREATE TABLE User
 (
-  id_address INT      NOT NULL,
-  Place VARCHAR(50) NOT NULL
+  id_user INT      NOT NULL,
+  username VARCHAR(50) NOT NULL,
+  password VARCHAR(50) NOT NULL
 );
- --******BY KANGUE*******--
+ --***********BY TATSINKOU**********--

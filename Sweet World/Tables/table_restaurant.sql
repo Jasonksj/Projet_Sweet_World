@@ -8,15 +8,15 @@ SET ECHO OFF
 
 CREATE TABLE Restaurant
     ( 
-      id_resto         INT           NOT NULL,
-      username_resto   VARCHAR(30)   NOT NULL,
-      password         VARCHAR(30)   NOT NULL,
-      Name_resto       VARCHAR(30)   NOT NULL,
+      id_resto         INT          NOT NULL,
+      name_resto   VARCHAR(30)   NOT NULL,
       Description      VARCHAR(40),
-      Name_employees   VARCHAR(25)   NOT NULL,
+      name_employee   VARCHAR(20) NOT NULL,
+      phone_number INT NOT NULL,
+      resto_address  VARCHAR(50)   NOT NULL,
       Date_res_created DATE          NOT NULL,
-      id_role          INT           NOT NULL,
-      id_position      INT           NOT NULL   
+      id_note          INT           NOT NULL,
+      id_user      INT           NOT NULL   
     );
     
     --***********BY TATSINKOU**********--
