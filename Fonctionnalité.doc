@@ -1,0 +1,37 @@
+        Theme: APPLICATION DE GESTION DE COMMANDE DE REPAS
+
+         
+         Fonctionnalités à livrer.
+
+         A. Fonctionnalités de l'administrateur
+            1.créer un utilisateur
+            2. ajouter un restaurant.
+            3. consulter les restaurants.
+            4. editer un restaurant.
+            5. supprimer un restaurant.
+            6. créerles plats.
+            7. éditer les plats.
+            8. supprimr les plats.
+            9. créer les compléments.
+            10. editer les compléments.
+            11. créer un séculant.
+            12. éditer un séculant.
+            13. supprimer un séculant.
+            14. supprimer un compléments.
+        
+        B.Fonctionnalités du responsable de restaurant
+            1. s'inscrire.
+            2. ajouter un restaurant.
+            3. éditer un restaurant.
+            4. supprimer un restaurant.
+            5. ajouter un menu du jour au menu du jour.
+            6. éditer un menu.
+            7. supprimer un menu.
+
+        C.Fonctionnalités du client
+            1. s'inscrire.
+            2. ajouter un repas au panier.
+            3. retirer un meu du panier.
+            4. effectuer la commande de son panier.
+            5. consulter ses commandes.
+            6. noter les restaurants.

@@ -10,10 +10,10 @@ Prompt********************************************** PRIMARY KEY ***************
 Prompt
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE ROLES TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE USER TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_roles
+@Tables/Constraints/Primary_Key/Constraint_user
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE RESTAURANT TABLE *****************************
@@ -28,40 +28,28 @@ Prompt
 @Tables/Constraints/Primary_Key/Constraint_customers
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE ADDRESS TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE MENU TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_address
+@Tables/Constraints/Primary_Key/Constraint_menu
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE CATEGORY TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE DISH TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_category
+@Tables/Constraints/Primary_Key/Constraint_dish
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE DELIVERY_MAN TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE COMPLEMENT TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_delivery_man
+@Tables/Constraints/Primary_Key/Constraint_complement
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE LOCATIONS TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE SECULANT TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_locations
-
-Prompt
-Prompt***************************** CONSTRAINT OF THE POSITIONS TABLE *****************************
-Prompt
-
-@Tables/Constraints/Primary_Key/Constraint_positions
-
-Prompt
-Prompt***************************** CONSTRAINT OF THE MEAL TABLE *****************************
-Prompt
-
-@Tables/Constraints/Primary_key/Constraint_meal
+@Tables/Constraints/Primary_Key/Constraint_seculant
 
 Prompt
 Prompt***************************** CONSTRAINT OF THE ORDERS TABLE *****************************
@@ -70,10 +58,20 @@ Prompt
 @Tables/Constraints/Primary_Key/Constraint_orders
 
 Prompt
-Prompt***************************** CONSTRAINT OF THE PAYMENT TABLE *****************************
+Prompt***************************** CONSTRAINT OF THE PANIER TABLE *****************************
 Prompt
 
-@Tables/Constraints/Primary_Key/Constraint_payment
+@Tables/Constraints/Primary_key/Constraint_panier
+
+Prompt
+Prompt***************************** CONSTRAINT OF THE NOTE TABLE *****************************
+Prompt
+
+@Tables/Constraints/Primary_Key/Constraint_note
+
+Prompt
+Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt
 
 
 
