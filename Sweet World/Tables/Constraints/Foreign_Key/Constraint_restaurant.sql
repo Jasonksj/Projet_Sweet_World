@@ -1,13 +1,10 @@
 ALTER TABLE Restaurant
 ADD
-	CONSTRAINT fk_Roles
-		FOREIGN KEY (id_role)
-		REFERENCES Roles(id_role);
-
-ALTER TABLE Restaurant
-ADD
-	CONSTRAINT fk_positions
-		FOREIGN KEY (id_position)
-		REFERENCES Positions(id_position);
+	CONSTRAINT fk_Note
+		FOREIGN KEY (id_note)
+		REFERENCES Note(id_note),
+	CONSTRAINT fk_User
+		FOREIGN KEY (id_user)
+		REFERENCES User(id_user);
 
 --***********BY TATSINKOU**********--
