@@ -1,2 +1,0 @@
-INSERT INTO Delivery_man(id_deliv_man,first_name_deliv,last_name_deliv,phone_deliv_man,email,date_of_birth,Salary) 
-VALUES (&id_deliv_man,'&first_name_deliv','&last_name_deliv',&phone_deliv_man,'&email','&date_of_birth',&Salary);

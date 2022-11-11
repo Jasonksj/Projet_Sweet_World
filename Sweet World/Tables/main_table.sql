@@ -8,58 +8,10 @@ Prompt
 
 
 Prompt
-Prompt***************************** CREATION OF THE CUSTOMERS TABLE *****************************
+Prompt***************************** CREATION OF THE USER TABLE *****************************
 Prompt
 
-@Tables/Table_customers
-
-Prompt
-Prompt***************************** CREATION OF THE ADDRESS TABLE *****************************
-Prompt
-
-@Tables/Table_address
-
-Prompt
-Prompt***************************** CREATION OF THE CATEGORY TABLE *****************************
-Prompt
-
-@Tables/Table_category
-
-Prompt
-Prompt***************************** CREATION OF THE DELIVERY_MAN TABLE *****************************
-Prompt
-
-@Tables/Table_delivery_man
-
-Prompt
-Prompt***************************** CREATION OF THE POSITIONS TABLE *****************************
-Prompt
-
-@Tables/Table_positions
-
-Prompt
-Prompt***************************** CREATION OF THE LOCATIONS TABLE *****************************
-Prompt
-
-@Tables/Table_locations
-
-Prompt
-Prompt***************************** CREATION OF THE MEAL TABLE *****************************
-Prompt
-
-@Tables/Table_meal
-
-Prompt
-Prompt***************************** CREATION OF THE ORDERS TABLE *****************************
-Prompt
-
-@Tables/Table_orders
-
-Prompt
-Prompt***************************** CREATION OF THE PAYMENT TABLE *****************************
-Prompt
-
-@Tables/Table_payment
+@Tables/Table_user
 
 Prompt
 Prompt***************************** CREATION OF THE RESTAURANT TABLE *****************************
@@ -68,8 +20,54 @@ Prompt
 @Tables/Table_restaurant
 
 Prompt
-Prompt***************************** CREATION OF THE ROLES TABLE *****************************
+Prompt***************************** CREATION OF THE CUSTOMERS TABLE *****************************
 Prompt
 
-@Tables/Table_roles
+@Tables/Table_customers
+
+Prompt
+Prompt***************************** CREATION OF THE MENU TABLE *****************************
+Prompt
+
+@Tables/Table_menu
+
+Prompt
+Prompt***************************** CREATION OF THE DISH TABLE *****************************
+Prompt
+
+@Tables/Table_dish
+
+Prompt
+Prompt***************************** CREATION OF THE COMPLEMENT TABLE *****************************
+Prompt
+
+@Tables/Table_complement
+
+Prompt
+Prompt***************************** CREATION OF THE SECULANT TABLE *****************************
+Prompt
+
+@Tables/Table_seculant
+
+Prompt
+Prompt***************************** CREATION OF THE ORDERS TABLE *****************************
+Prompt
+
+@Tables/Table_orders
+
+Prompt
+Prompt***************************** CREATION OF THE PANIER TABLE *****************************
+Prompt
+
+@Tables/Table_panier
+
+Prompt
+Prompt***************************** CREATION OF THE NOTE TABLE *****************************
+Prompt
+
+@Tables/Table_note
+
+Prompt
+Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt
 

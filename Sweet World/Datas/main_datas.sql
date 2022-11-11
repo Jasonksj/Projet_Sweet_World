@@ -7,48 +7,29 @@ Prompt***************************** POPULATING SWEET_WORLD SCHEMA **************
 Prompt
 
 Prompt
-Prompt***************************** POPULATING ADDRESS TABLE *****************************
+Prompt***************************** POPULATING USER TABLE *****************************
 Prompt
 
-@Datas/Datas_address
+@Datas/Datas_user
 
 Prompt
-Prompt***************************** POPULATING ROLES TABLE *****************************
+Prompt***************************** POPULATING DISH TABLE *****************************
 Prompt
 
-@Datas/Datas_roles
+@Datas/Datas_dish
 
 Prompt
-Prompt***************************** POPULATING CATEGORY TABLE *****************************
+Prompt***************************** POPULATING COMPLEMENT TABLE *****************************
 Prompt
 
-@Datas/Datas_category
-
-
-Prompt
-Prompt***************************** POPULATING DELIVERY_MAN TABLE *****************************
-Prompt
-
-@Datas/Datas_delivery_man
-
-Prompt
-Prompt***************************** POPULATING LOCATIONS TABLE *****************************
-Prompt
-
-@Datas/Datas_locations
-
-Prompt
-Prompt***************************** POPULATING POSITIONS TABLE *****************************
-Prompt
-
-@Datas/Datas_positions
+@Datas/Datas_complement
 
 
 Prompt
-Prompt***************************** POPULATING PAYMENT TABLE *****************************
+Prompt***************************** POPULATING SECULANT TABLE *****************************
 Prompt
 
-@Datas/Datas_payment
+@Datas/Datas_seculant
 
 Prompt
 Prompt***************************** POPULATING CUSTOMERS TABLE *****************************
@@ -62,17 +43,34 @@ Prompt
 
 @Datas/Datas_restaurant
 
+
 Prompt
-Prompt***************************** POPULATING MEAL TABLE *****************************
+Prompt***************************** POPULATING NOTE TABLE *****************************
 Prompt
 
-@Datas/Datas_meal
+@Datas/Datas_note
+
+Prompt
+Prompt***************************** POPULATING MENU TABLE *****************************
+Prompt
+
+@Datas/Datas_menu
+
+Prompt
+Prompt***************************** POPULATING PANIER TABLE *****************************
+Prompt
+
+@Datas/Datas_panier
 
 Prompt
 Prompt***************************** POPULATING ORDERS TABLE *****************************
 Prompt
 
 @Datas/Datas_orders
+
+Prompt
+Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt
 
 
 

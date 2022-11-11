@@ -39,24 +39,25 @@ ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
 @Datas/main_datas
 
 Prompt
-Prompt *******************************************************************JASON   KAMSU*************************************************************************
+Prompt *******************************************************************JASON KAMSU*************************************************************************
 Prompt
 
 select table_name from user_tables;
 
-SELECT * FROM ADDRESS;
-SELECT * FROM CUSTOMERS;
-SELECT * FROM DELIVERY_MAN;
-SELECT * FROM LOCATIONS;
-SELECT * FROM MEAL;
-SELECT * FROM ORDERS ORDER BY order_date ASC;
-SELECT * FROM PAYMENT;
+SELECT * FROM USER;
 SELECT * FROM RESTAURANT;
-SELECT * FROM ROLES;
+SELECT * FROM CUSTOMERS;
+SELECT * FROM DISH;
+SELECT * FROM COMPLEMENT;
+SELECT * FROM SECULANT;
+SELECT * FROM MENU;
+SELECT * FROM ORDERS;
+SELECT * FROM PANIER;
+SELECT * FROM NOTE;
 
 --
 -- BY JASON KAMSU
 --
 Prompt
-Prompt *******************************************************************JASON   KAMSU*************************************************************************
+Prompt *******************************************************************JASON KAMSU*************************************************************************
 Prompt

@@ -1,1 +1,0 @@
-INSERT INTO Positions(id_position, Street,Postal_code,latitude,longitude)VALUES(&id_position,'&Street','&Postal_code','&latitude','&longitude');

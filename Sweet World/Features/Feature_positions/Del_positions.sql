@@ -1,1 +1,0 @@
-DELETE FROM Positions WHERE id_position = &id_position;
