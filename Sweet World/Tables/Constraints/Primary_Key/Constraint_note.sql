@@ -1,7 +1,7 @@
-ALTER TABLE Category
+ALTER TABLE Note
 ADD
 (
-    CONSTRAINT id_category_pk
-        PRIMARY KEY(id_category)
+    CONSTRAINT id_note_pk
+        PRIMARY KEY(id_note)
 );
-/* Cree par annaellejosee13*/
+/* Cree par Samy Bodio*/
