@@ -1,6 +1,6 @@
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
-(1,"Samy","Bodio",690237771,"samybodio2@gmail.com",TO_DATE('01/01/2019', 'DD/MM/YYYY'),'Douala-Yassa',1);
+(1,'Samy','Bodio',690237771,'samybodio2@gmail.com',TO_DATE('01/01/2019', 'DD/MM/YYYY'),'Douala-Yassa',1);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (2,'Boumssong','Aristide',690642527,'boumssongjp@gmail.com',TO_DATE('05/08/2009', 'DD/MM/YYYY'),'Douala-Yassa',2);
