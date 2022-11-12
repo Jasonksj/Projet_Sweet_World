@@ -18,7 +18,7 @@ VALUES
 (6,'Anaelle','Makolo',690642527,'EnaelleMkolo@gmail.com',TO_DATE('17/03/1996', 'DD/MM/YYYY'),'Newbell-Bassa',6);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
-(7,'Tatinkou','Crispin',698884127,'Tatinkou@gmail.com',TO_DATE('01/07/2011', 'DD/MM/YYYY'),'Logbessou',7);
+(7,'Tatsinkou','Crispin',698884127,'Tatsinkou@gmail.com',TO_DATE('01/07/2011', 'DD/MM/YYYY'),'Logbessou',7);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (8,'Loic','Patric',697584747,'LoicPatric@gmail.com',TO_DATE('17/03/1996', 'DD/MM/YYYY'),'Bonamoussadi',8);
