@@ -9,6 +9,7 @@ SET ECHO OFF
 CREATE TABLE Panier
 (
     id_panier  INT          NOT NULL,
+    quantity   INT          NOT NULL,
    id_cust     INT          NOT NULL,
    id_menu     INT          NOT NULL
 );
