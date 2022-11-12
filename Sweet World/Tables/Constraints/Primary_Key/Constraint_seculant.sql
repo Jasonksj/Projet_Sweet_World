@@ -1,5 +1,5 @@
-ALTER TABLE Roles
-ADD
-    CONSTRAINT id_role_pk
-        PRIMARY KEY(id_role);
+ALTER TABLE Seculant
+ADD 
+    CONSTRAINT Seculant_pk
+        PRIMARY KEY (id_seculant);
 /* Cree par Samy Bodio */

@@ -1,5 +1,5 @@
-ALTER TABLE Delivery_man
+ALTER TABLE Menu
 ADD 
-    CONSTRAINT Delivery_man_pk
-        PRIMARY KEY (id_deliv_man);
-    ----***** by FOTSO ******----
+    CONSTRAINT Menu_pk
+        PRIMARY KEY (id_menu);
+    ----***** by KANGUE ******----
