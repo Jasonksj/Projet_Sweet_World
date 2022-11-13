@@ -1,0 +1,16 @@
+SET FEEDBACK 1
+SET NUMWIDTH 10
+SET LINESIZE 3000
+SET TRIMSPOOL ON
+SET TAB OFF
+SET PAGESIZE 100
+SET ECHO OFF
+
+CREATE TABLE Note
+(
+    id_note INT         NOT NULL,
+    Valeur  VARCHAR(20) NOT NULL,
+    id_cust INT         NOT NULL
+);
+/* Cree par Samy-Bodio*/
+

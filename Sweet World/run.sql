@@ -13,28 +13,52 @@ SET ECHO OFF
 ALTER SESSION SET NLS_LANGUAGE=English;
 ALTER SESSION SET NLS_TERRITORY=America;
 ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
---
--- create user
---
+
+Prompt
+Prompt***************************** CREATION USER  *****************************
+Prompt
+
 @users
 
---
--- create tables
---
+Prompt
+Prompt***************************** CREATION TABLE  *****************************
+Prompt
 
-@Tables/main_table
+@Object/Tables/main_table
 
--- 
--- create index and constraints
---
+Prompt
+Prompt***************************** CREATION INDEX  *****************************
+Prompt
 
-@Tables/Constraints/Primary_Key/main_Primary_Key
+@Object/Index/main_index
 
-@Tables/Constraints/Foreign_Key/main_Foreign_Key
+Prompt
+Prompt***************************** CREATION CHECK  *****************************
+Prompt
 
---
--- populate tables
---
+@Object/Check/main_check
+
+Prompt
+Prompt***************************** CREATION PRIMARY KEY  *****************************
+Prompt
+
+@Object/Constraints/Primary_Key/main_Primary_Key
+
+Prompt
+Prompt***************************** CREATION SEQUENCE  *****************************
+Prompt
+
+@Object/Sequence/main_sequence
+
+Prompt
+Prompt***************************** CREATION FOREIGN KEY  *****************************
+Prompt
+
+@Object/Constraints/Foreign_Key/main_Foreign_Key
+
+Prompt
+Prompt***************************** POPULATE TABLE  *****************************
+Prompt
 
 @Datas/main_datas
 
@@ -44,7 +68,7 @@ Prompt
 
 select table_name from user_tables;
 
-SELECT * FROM USER;
+SELECT * FROM USERS;
 SELECT * FROM RESTAURANT;
 SELECT * FROM CUSTOMERS;
 SELECT * FROM DISH;
