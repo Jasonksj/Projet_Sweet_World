@@ -32,8 +32,21 @@ Prompt
 @Datas/Datas_seculant
 
 Prompt
+Prompt***************************** POPULATING CONFIG TABLE *****************************
+Prompt
+
+@Datas/Datas_config
+
+Prompt
+Prompt***************************** POPULATING CONTROL_PANIER_MENU TABLE *****************************
+Prompt
+
+@Datas/Datas_control_panier_menu
+
+Prompt
 Prompt***************************** POPULATING CUSTOMERS TABLE *****************************
 Prompt
+
 
 @Datas/Datas_customers
 
