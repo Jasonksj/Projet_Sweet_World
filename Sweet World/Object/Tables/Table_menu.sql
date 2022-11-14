@@ -13,10 +13,12 @@ CREATE TABLE Menu
     Menu_description VARCHAR(25)  NOT NULL,
     Menu_price       NUMBER       NOT NULL,
     Menu_date        DATE         NOT NULL,
+    Menu_Qty         INT          NOT NULL,
     id_dish          INT          NOT NULL,
     id_seculant      INT          NOT NULL,
     id_complement    INT          NOT NULL,
-    id_resto         INT          NOT NULL
+    id_resto         INT          NOT NULL,
+    id_config        INT          NOT NULL
 );
 
 --***** BY KANGUE *****--

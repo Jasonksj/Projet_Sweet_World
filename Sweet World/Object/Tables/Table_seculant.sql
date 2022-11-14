@@ -9,8 +9,7 @@ SET ECHO OFF
 CREATE TABLE Payment 
 (
   id_seculant   INT         NOT NULL,
-  Name_Seculant VARCHAR(25) NOT NULL,
-  Qty_Secu      INT         NOT NULL
+  Name_Seculant VARCHAR(25) NOT NULL
 );
 
  --******BY KANGUE*******--

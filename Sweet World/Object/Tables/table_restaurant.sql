@@ -15,7 +15,6 @@ CREATE TABLE Restaurant
       phone_number     INT           NOT NULL,
       resto_address    VARCHAR(50)   NOT NULL,
       Date_res_created DATE          NOT NULL,
-      id_note          INT           NOT NULL,
       id_user          INT           NOT NULL   
     );
     

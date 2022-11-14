@@ -14,4 +14,5 @@ CREATE TABLE Dish
    description VARCHAR(100),
    id_category INT           NOT NULL
 );
+
 /* Cree par annaellejosee13*/
