@@ -1,10 +1,10 @@
-CREATE SEQUENCE users_seq
-START WITH 30 INCREMENT BY 100;
+CREATE SEQUENCE id_panier_seq
+START WITH 30 INCREMENT BY 1;
 
-CREATE OR REPLACE TRIGGER order_tg
-BEFORE INSERT ON orders
+CREATE OR REPLACE TRIGGER panier_tg
+BEFORE INSERT ON Panier
 FOR EACH ROW
 BEGIN
-:new.order_number := order_number_seq.nextval;
+:new.id_panier := id_panier_seq.nextval;
 END;
 /

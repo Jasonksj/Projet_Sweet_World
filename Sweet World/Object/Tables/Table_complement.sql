@@ -8,8 +8,7 @@ SET ECHO OFF
 
 CREATE TABLE Complement
 ( 
-      latitude    VARCHAR2(20) NOT NULL,
-      longitude   VARCHAR2(20) NOT NULL,
-      City        VARCHAR2(25) NOT NULL
+    id_complement     INT           NOT NULL,
+    Name_complemesnt  VARCHAR(40)   NOT NULL
 );
     --***********BY TATSINKOU**********--

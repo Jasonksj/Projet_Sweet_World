@@ -21,5 +21,11 @@ ADD
     CONSTRAINT fk_id_resto
         FOREIGN KEY(id_resto)
         REFERENCES Restaurant(id_resto);
+
+ALTER TABLE Menu
+ADD
+    CONSTRAINT fk_id_config
+        FOREIGN KEY(id_config)
+        REFERENCES Config(id_config);
         
 /* Cree par Kangue Loic*/
