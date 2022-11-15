@@ -18,11 +18,7 @@ VALUES
 (6,'Anaelle','Makolo',690642527,'EnaelleMkolo@gmail.com',TO_DATE('17/03/1996', 'DD/MM/YYYY'),'Newbell-Bassa',22);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
-<<<<<<< HEAD
 (7,'Tatinkou','Crispin',698884127,'Tatinkou@gmail.com',TO_DATE('01/07/2011', 'DD/MM/YYYY'),'Logbessou',23);
-=======
-(7,'Tatsinkou','Crispin',698884127,'Tatsinkou@gmail.com',TO_DATE('01/07/2011', 'DD/MM/YYYY'),'Logbessou',7);
->>>>>>> d5ff85842ef066d65b9996f3e405062c9033db4f
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (8,'Loic','Patric',697584747,'LoicPatric@gmail.com',TO_DATE('17/03/1996', 'DD/MM/YYYY'),'Bonamoussadi',24);
@@ -47,3 +43,6 @@ VALUES
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (15,'Martina','liliane',651464298,'Martinalili@gmail.com',TO_DATE('08/12/2003', 'DD/MM/YYYY'),'iracle',31);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
+VALUES
+(16,'Passy','Evana',651464298,'PassyEva@gmail.com',TO_DATE('08/01/2011', 'DD/MM/YYYY'),'paris',32);
