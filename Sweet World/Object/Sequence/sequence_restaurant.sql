@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CREATE SEQUENCE id_resto_seq
 START WITH 17 INCREMENT BY 1;
 
@@ -9,5 +8,3 @@ START WITH 17 INCREMENT BY 1;
 --:new.id_resto := id_resto_seq.nextval;
 --END;
 --/
-=======
->>>>>>> 5ae67fe487dc0c564099faf190e58b3c29f6ad0b
