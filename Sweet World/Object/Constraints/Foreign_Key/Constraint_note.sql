@@ -2,6 +2,12 @@ ALTER TABLE Note
 ADD       
     CONSTRAINT fk_id_cust
         FOREIGN KEY (id_cust)
-        REFERENCES Address(id_cust);
+        REFERENCES Customers(id_cust);
+
+ALTER TABLE Note
+ADD       
+    CONSTRAINT fk_id_resto
+        FOREIGN KEY (id_resto)
+        REFERENCES Restaurant(id_resto);
             
 /* Cree par Samy Bodio */

@@ -3,4 +3,4 @@ ADD
     CONSTRAINT Seculant_pk
         PRIMARY KEY (id_seculant);
         
-/* Cree par Samy Bodio */
+    ----***** by KANGUE ******----

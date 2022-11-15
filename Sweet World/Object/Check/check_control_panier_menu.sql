@@ -1,2 +1,5 @@
-CREATE UNIQUE INDEX id_control_panier_menu_pk
-ON Control_Panier_Menu(id_panier, id_menu);
+ALTER TABLE Control_Panier_Menu
+ADD ( 
+		CONSTRAINT Quantity_chk CHECK(quantity > 0),
+		CONSTRAINT price_chk CHECK(price > 0)
+);

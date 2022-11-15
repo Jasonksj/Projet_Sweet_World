@@ -6,7 +6,7 @@ SET TAB OFF
 SET PAGESIZE 100
 SET ECHO OFF
 
-CREATE TABLE Payment 
+CREATE TABLE Seculant
 (
   id_seculant   INT         NOT NULL,
   Name_Seculant VARCHAR(25) NOT NULL
