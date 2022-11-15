@@ -12,7 +12,7 @@ VALUES
 (4,'Juliette','Valdes',690630204,'Valdine@gmail.com',TO_DATE('29/03/2000', 'DD/MM/YYYY'),'Douala-Newbell',20);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
-(5,'Jason','Kamsu',690230458,'jjk@gmail.com',TO_DATE('15/18/2019', 'DD/MM/YYYY'),'village',21);
+(5,'Jason','Kamsu',690230458,'jjk@gmail.com',TO_DATE('15/11/2019', 'DD/MM/YYYY'),'village',21);
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (6,'Anaelle','Makolo',690642527,'EnaelleMkolo@gmail.com',TO_DATE('17/03/1996', 'DD/MM/YYYY'),'Newbell-Bassa',22);
