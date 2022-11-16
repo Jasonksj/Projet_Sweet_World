@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALUES (1,'Riz',20);
 INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALUES (2,'Plantain mur',20);
 INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALUES (3,'Macabo',20);
@@ -17,8 +14,5 @@ INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALU
 INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALUES (14,' Couscous de manioc ',20);
 INSERT INTO Complement ( id_complement , Name_complement ,  Qty_complement) VALUES (15,' Tapioca',20);
 
-
-
 --*********BY annaellejosee13*********-- 
-=======
->>>>>>> 1ce3056cb58b2e39a51187654e6b2cfd1a2736b5
+
