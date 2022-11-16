@@ -1,0 +1,2 @@
+CREATE SEQUENCE id_complement_seq
+START WITH 30 INCREMENT BY 1;
