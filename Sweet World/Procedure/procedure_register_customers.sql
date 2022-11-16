@@ -9,7 +9,7 @@ CREATE OR REPLACE PROCEDURE sp_register(p_id_cust IN NUMBER,
     IS
        l_msg  VARCHAR2(100);
    BEGIN
-      INSERT INTO person (id_cust,
+      INSERT INTO customers (id_cust,
                           first_name,
                           last_name,
                           phone_nomber,

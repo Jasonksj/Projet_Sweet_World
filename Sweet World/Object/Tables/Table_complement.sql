@@ -9,6 +9,6 @@ SET ECHO OFF
 CREATE TABLE Complement
 ( 
     id_complement     INT           NOT NULL,
-    Name_complemesnt  VARCHAR(40)   NOT NULL
+    Name_complement  VARCHAR(40)   NOT NULL
 );
-    --***********BY TATSINKOU**********--
+    --***********BY Annaelle Josee**********--
