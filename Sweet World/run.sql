@@ -1,3 +1,4 @@
+
 Prompt
 Prompt***************************** INSTALLING SWEET_WORLD SCHEMA *****************************
 Prompt
@@ -18,7 +19,7 @@ Prompt
 Prompt***************************** CREATION USER  *****************************
 Prompt
 
-@user
+@users
 
 Prompt
 Prompt***************************** CREATION TABLE  *****************************
