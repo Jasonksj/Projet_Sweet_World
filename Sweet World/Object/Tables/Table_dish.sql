@@ -8,8 +8,11 @@ SET ECHO OFF
 
 CREATE TABLE Dish
 (
-   id_dish     INT           NOT NULL,
-   Name_dish   VARCHAR(40)   NOT NULL
+   id_dish    INT           NOT NULL,
+   Name_dish   VARCHAR(40)  NOT NULL,
+   Price_max   NUMBER        NOT NULL,
+   Price_min   Number        NOT NULL,
+   description VARCHAR(100),
+   Qty_dish     INT           NOT NULL
 );
-
-/* Cree par annaellejosee13*/
+--*********BY annaellejosee13*********--
