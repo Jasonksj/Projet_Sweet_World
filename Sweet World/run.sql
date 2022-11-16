@@ -18,7 +18,7 @@ Prompt
 Prompt***************************** CREATION USER  *****************************
 Prompt
 
-@users
+@user
 
 Prompt
 Prompt***************************** CREATION TABLE  *****************************
