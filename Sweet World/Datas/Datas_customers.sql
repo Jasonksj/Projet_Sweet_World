@@ -43,3 +43,6 @@ VALUES
 INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
 VALUES
 (15,'Martina','liliane',651464298,'Martinalili@gmail.com',TO_DATE('08/12/2003', 'DD/MM/YYYY'),'iracle',31);
+INSERT INTO Customers(id_cust,first_name,last_name,phone_number,Email,Datecd_cust,Cust_address,id_user)
+VALUES
+(16,'Passy','Evana',651464298,'PassyEva@gmail.com',TO_DATE('08/01/2011', 'DD/MM/YYYY'),'paris',32);
