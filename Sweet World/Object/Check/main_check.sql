@@ -31,35 +31,7 @@ Prompt
 
 @Object/Check/check_menu
 
-Prompt
-Prompt***************************** CREATION OF THE DISH CHECK *****************************
-Prompt
 
-@Object/Check/check_dish
-
-Prompt
-Prompt***************************** CREATION OF THE COMPLEMENT CHECK *****************************
-Prompt
-
-@Object/Check/check_complement
-
-Prompt
-Prompt***************************** CREATION OF THE SECULANT CHECK *****************************
-Prompt
-
-@Object/Check/check_seculant
-
-Prompt
-Prompt***************************** CREATION OF THE ORDERS CHECK *****************************
-Prompt
-
-@Object/Check/check_orders
-
-Prompt
-Prompt***************************** CREATION OF THE PANIER CHECK *****************************
-Prompt
-
-@Object/Check/check_panier
 
 Prompt
 Prompt***************************** CREATION OF THE NOTE CHECK *****************************
