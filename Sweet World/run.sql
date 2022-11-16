@@ -1,3 +1,4 @@
+
 Prompt
 Prompt***************************** INSTALLING SWEET_WORLD SCHEMA *****************************
 Prompt
