@@ -9,12 +9,12 @@ INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0007,TO_DATE
 INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0008,TO_DATE('22/08/2022', 'DD/MM/YYYY'),0008,0008);
 INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0009,TO_DATE('04/09/2022', 'DD/MM/YYYY'),0009,0009);
 INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0010,TO_DATE('12/10/2022', 'DD/MM/YYYY'),0010,0010);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0005,TO_DATE('20/05/2022', 'DD/MM/YYYY'),0011,0011);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0006,TO_DATE('18/06/2022', 'DD/MM/YYYY'),0012,0012);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0007,TO_DATE('17/07/2022', 'DD/MM/YYYY'),0013,0013);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0008,TO_DATE('22/08/2022', 'DD/MM/YYYY'),0014,0014);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0009,TO_DATE('04/09/2022', 'DD/MM/YYYY'),0015,0015);
-INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0010,TO_DATE('12/10/2022', 'DD/MM/YYYY'),0016,0016);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0011,TO_DATE('20/05/2022', 'DD/MM/YYYY'),0011,0011);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0012,TO_DATE('18/06/2022', 'DD/MM/YYYY'),0012,0012);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0013,TO_DATE('17/07/2022', 'DD/MM/YYYY'),0013,0013);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0014,TO_DATE('22/08/2022', 'DD/MM/YYYY'),0014,0014);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0015,TO_DATE('04/09/2022', 'DD/MM/YYYY'),0015,0015);
+INSERT INTO Orders (id_order,order_date,id_resto,id_panier) VALUES (0016,TO_DATE('12/10/2022', 'DD/MM/YYYY'),0016,0016);
 
 
 -------- FOTSO-----
