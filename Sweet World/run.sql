@@ -35,12 +35,6 @@ Prompt
 --@Object/Sequence/main_sequence
 
 Prompt
-Prompt***************************** CREATION INDEX  *****************************
-Prompt
-
-@Object/Index/main_index
-
-Prompt
 Prompt***************************** CREATION PRIMARY KEY  *****************************
 Prompt
 
@@ -52,12 +46,17 @@ Prompt
 
 @Object/Constraints/Foreign_Key/main_Foreign_Key
 
-
 Prompt
 Prompt***************************** CREATION CHECK  *****************************
 Prompt
 
 @Object/Check/main_check
+
+Prompt
+Prompt***************************** CREATION INDEX  *****************************
+Prompt
+
+@Object/Index/main_index
 
 Prompt
 Prompt***************************** POPULATE TABLE  *****************************
