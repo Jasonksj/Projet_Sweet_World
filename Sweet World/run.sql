@@ -1,3 +1,4 @@
+
 Prompt
 Prompt***************************** INSTALLING SWEET_WORLD SCHEMA *****************************
 Prompt
@@ -19,12 +20,22 @@ Prompt***************************** CREATION USER  *****************************
 Prompt
 
 @users
+<<<<<<< HEAD
+=======
+
+Prompt
+Prompt***************************** CREATION SEQUENCE  *****************************
+Prompt
+
+@Object/Sequence/main_sequence.sql
+>>>>>>> 3fedd49d2851ba8fed8cb44152312de2b2bcb6ce
 
 Prompt
 Prompt***************************** CREATION TABLE  *****************************
 Prompt
 
 @Object/Tables/main_table
+
 
 Prompt
 Prompt***************************** CREATION INDEX  *****************************
@@ -33,22 +44,10 @@ Prompt
 @Object/Index/main_index
 
 Prompt
-Prompt***************************** CREATION CHECK  *****************************
-Prompt
-
-@Object/Check/main_check
-
-Prompt
 Prompt***************************** CREATION PRIMARY KEY  *****************************
 Prompt
 
 @Object/Constraints/Primary_Key/main_Primary_Key
-
-Prompt
-Prompt***************************** CREATION SEQUENCE  *****************************
-Prompt
-
-@Object/Sequence/main_sequence
 
 Prompt
 Prompt***************************** CREATION FOREIGN KEY  *****************************
@@ -57,10 +56,22 @@ Prompt
 @Object/Constraints/Foreign_Key/main_Foreign_Key
 
 Prompt
+Prompt***************************** CREATION CHECK  *****************************
+Prompt
+
+@Object/Check/main_check
+
+Prompt
 Prompt***************************** POPULATE TABLE  *****************************
 Prompt
 
 @Datas/main_datas
+
+Prompt
+Prompt***************************** CREATE PROCEDURE  *****************************
+Prompt
+
+@Procedure/main_procedure
 
 Prompt
 Prompt *******************************************************************JASON KAMSU*************************************************************************
@@ -84,5 +95,5 @@ SELECT * FROM CONTROL_PANIER_MENU;
 -- BY JASON KAMSU
 --
 Prompt
-Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt *******************************************************************SWEET_WORLD*************************************************************************
 Prompt

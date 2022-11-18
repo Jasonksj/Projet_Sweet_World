@@ -29,16 +29,16 @@ Prompt
 @Object/Constraints/Foreign_Key/Constraint_orders
 
 Prompt
-Prompt***************************** CONSTRAINT FOREIGN KEY OF THE NOTE TABLE *****************************
-Prompt
-
-@Object/Constraints/Foreign_Key/Constraint_note
-
-Prompt
 Prompt***************************** CONSTRAINT  FOREIGN KEY OF THE RESTAURANT TABLE *****************************
 Prompt
 
 @Object/Constraints/Foreign_Key/Constraint_restaurant
+
+Prompt
+Prompt***************************** CONSTRAINT FOREIGN KEY OF THE NOTE TABLE *****************************
+Prompt
+
+@Object/Constraints/Foreign_Key/Constraint_note
 
 Prompt
 Prompt***************************** CONSTRAINT  FOREIGN KEY OF THE PANIER TABLE *****************************
@@ -47,7 +47,7 @@ Prompt
 @Object/Constraints/Foreign_Key/Constraint_panier
 
 Prompt
-Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt *******************************************************************SWEET_WORLD*************************************************************************
 Prompt
 
 

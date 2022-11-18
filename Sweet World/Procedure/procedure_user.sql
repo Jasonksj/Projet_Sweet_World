@@ -1,21 +1,21 @@
 CREATE OR REPLACE PROCEDURE sp_users(p_id_user IN INT,
-                                    p_user_name IN VARCHAR2,
-                                    p_password IN VARCHAR2
+                                    p_username IN VARCHAR,
+                                    p_password IN VARCHAR
                                     )
     IS
-       l_msg  VARCHAR2(100);
+       l_msg  VARCHAR(100);
    BEGIN
-      INSERT INTO users (id_user,
-                         user_name,
-                         password,
+      INSERT INTO Users (id_user,
+                         username,
+                         password
                         )
       SELECT p_id_user,
-             p_user_name,
+             p_username,
              p_password
       FROM DUAL
       WHERE NOT EXISTS
               (SELECT NULL
-               FROM users
+               FROM Users
                WHERE id_user = p_id_user);
       
 	   l_msg :=
