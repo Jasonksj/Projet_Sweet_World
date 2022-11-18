@@ -1,26 +1,26 @@
-CREATE OR REPLACE PROCEDURE sp_register(p_id_cust IN NUMBER,
-                                        p_first_name IN VARCHAR2,
-                                        p_last_name IN VARCHAR2,
-                                        p_phone_nomber IN NUMBER,
-                                        p_Email  IN VARCHAR2,
-                                        p_Datecd_cust  IN VARCHAR2,
-                                        p_Cust_address   IN VARCHAR2
-                                        p_id_user IN NUMBER)
+CREATE OR REPLACE PROCEDURE sp_register(p_id_cust IN INT,
+                                        p_first_name IN VARCHAR,
+                                        p_last_name IN VARCHAR,
+                                        p_phone_number IN NUMBER,
+                                        p_Email  IN VARCHAR,
+                                        p_Datecd_cust  IN DATE,
+                                        p_Cust_address   IN VARCHAR,
+                                        p_id_user IN INT)
     IS
        l_msg  VARCHAR2(100);
    BEGIN
       INSERT INTO customers (id_cust,
                           first_name,
                           last_name,
-                          phone_nomber,
+                          phone_number,
                           Email,
                           Datecd_cust,
-                          Cust_address
+                          Cust_address,
                           id_user)
       SELECT p_id_cust,
              p_first_name,
              p_last_name,
-             p_phone_nomber,
+             p_phone_number,
              p_Email,
              p_Datecd_cust,
              p_Cust_address,
