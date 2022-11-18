@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 INSERT INTO Complement ( id_complement , Name_complement ) VALUES (1,'Riz');
 INSERT INTO Complement ( id_complement , Name_complement ) VALUES (2,'Plantain mur');
 INSERT INTO Complement ( id_complement , Name_complement ) VALUES (3,'Macabo');
@@ -20,6 +17,7 @@ INSERT INTO Complement ( id_complement , Name_complement ) VALUES (15,' Tapioca'
 
 
 --*********BY annaellejosee13*********-- 
+<<<<<<< HEAD
 =======
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (1,'Riz');
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (2,'Plantain mur');
@@ -35,8 +33,10 @@ INSERT INTO Complement ( id_complement , Name_complement) VALUES (11,' Mignondo'
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (12,' Baton de manioc');
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (13,' Couscous mais ');
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (14,' Couscous de manioc ');
-INSERT INTO Complement ( id_complement , Name_complement) VALUES (15,' Couscous de Tapioca');
+INSERT INTO Complement ( id_complement , Name_complement) VALUES (15,' Tapioca');
 
 --*********BY annaellejosee13*********-- 
 
 >>>>>>> 7997da19a11b9745cb78611bf959a62a40dc942f
+=======
+>>>>>>> b5712c19c323dd6239ac7baf2b85970f1c22477c

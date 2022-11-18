@@ -1,7 +1,7 @@
 ALTER TABLE Restaurant
 ADD
-	CONSTRAINT fk_User
+	CONSTRAINT fk_Users
 		FOREIGN KEY (id_user)
-		REFERENCES User(id_user);
+		REFERENCES Users(id_user);
 
 --***********BY TATSINKOU**********--

@@ -56,16 +56,17 @@ Prompt
 @Object/Sequence/sequence_orders
 
 Prompt
+Prompt***************************** CREATION OF THE NOTE SEQUENCE *****************************
+Prompt
+
+@Object/Sequence/sequence_note
+
+Prompt
 Prompt***************************** CREATION OF THE PANIER SEQUENCE *****************************
 Prompt
 
 @Object/Sequence/sequence_panier
 
-Prompt
-Prompt***************************** CREATION OF THE NOTE SEQUENCE *****************************
-Prompt
-
-@Object/Sequence/sequence_note
 
 Prompt
 Prompt***************************** CREATION OF THE CONFIG SEQUENCE *****************************
@@ -73,11 +74,6 @@ Prompt
 
 @Object/Sequence/sequence_config
 
-Prompt
-Prompt***************************** CREATION OF THE CONTROL_PANIER_MENU SEQUENCE *****************************
-Prompt
-
-@Object/Sequence/sequence_control_panier_menu
 
 Prompt
 Prompt *******************************************************************JASON KAMSU*************************************************************************
