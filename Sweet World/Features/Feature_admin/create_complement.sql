@@ -1,7 +1,2 @@
-BEGIN
-sp_users (p_id_user => &id_user,
-             p_username => '&username',   
-             p_password => '&password'                      
-             );
-END;
-/
+INSERT INTO Complement(id_complement, Name_complement)
+VALUES(id_complement_seq.nextval,'&Name_complement');
