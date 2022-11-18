@@ -5,12 +5,12 @@ CREATE OR REPLACE PROCEDURE sp_register(p_id_cust IN INT,
                                         p_Email  IN VARCHAR,
                                         p_Datecd_cust  IN DATE,
                                         p_Cust_address   IN VARCHAR,
-                                        p_id_user IN INT)
+                                        p_id_users IN INT)
     IS
        l_msg  VARCHAR2(100);
    BEGIN
       INSERT INTO customers (id_cust,
-                          first_name,
+                           first_name,
                           last_name,
                           phone_number,
                           Email,
@@ -24,7 +24,7 @@ CREATE OR REPLACE PROCEDURE sp_register(p_id_cust IN INT,
              p_Email,
              p_Datecd_cust,
              p_Cust_address,
-             p_id_user
+             p_id_users
       FROM DUAL
       WHERE NOT EXISTS
               (SELECT NULL
