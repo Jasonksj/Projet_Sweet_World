@@ -20,12 +20,15 @@ Prompt***************************** CREATION USER  *****************************
 Prompt
 
 @users
+<<<<<<< HEAD
+=======
 
 Prompt
 Prompt***************************** CREATION SEQUENCE  *****************************
 Prompt
 
 @Object/Sequence/main_sequence.sql
+>>>>>>> 3fedd49d2851ba8fed8cb44152312de2b2bcb6ce
 
 Prompt
 Prompt***************************** CREATION TABLE  *****************************
