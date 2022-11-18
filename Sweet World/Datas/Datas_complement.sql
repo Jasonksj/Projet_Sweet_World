@@ -17,5 +17,3 @@ INSERT INTO Complement ( id_complement , Name_complement ) VALUES (15,' Tapioca'
 
 
 --*********BY annaellejosee13*********-- 
-
-

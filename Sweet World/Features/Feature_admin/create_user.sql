@@ -1,2 +1,9 @@
-INSERT INTO Users(id_user,username,password)
-VALUES('&username','&password');
+BEGIN
+sp_users (p_id_user => id_user_seq.NEXTVAL,
+             p_username => '&username',   
+             p_password => '&password'                      
+             );
+END;
+/
+
+SELECT * FROM USERS;

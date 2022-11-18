@@ -22,10 +22,23 @@ Prompt
 @users
 
 Prompt
+Prompt***************************** CREATION SEQUENCE  *****************************
+Prompt
+
+@Object/Sequence/main_sequence.sql
+
+Prompt
 Prompt***************************** CREATION TABLE  *****************************
 Prompt
 
 @Object/Tables/main_table
+
+
+Prompt
+Prompt***************************** CREATION INDEX  *****************************
+Prompt
+
+@Object/Index/main_index
 
 Prompt
 Prompt***************************** CREATION PRIMARY KEY  *****************************
@@ -46,23 +59,16 @@ Prompt
 @Object/Check/main_check
 
 Prompt
-Prompt***************************** CREATION INDEX  *****************************
-Prompt
-
-@Object/Index/main_index
-
-Prompt
-Prompt***************************** CREATION SEQUENCE  *****************************
-Prompt
-
---@Object/Sequence/main_sequence
-
-
-Prompt
 Prompt***************************** POPULATE TABLE  *****************************
 Prompt
 
 @Datas/main_datas
+
+Prompt
+Prompt***************************** CREATE PROCEDURE  *****************************
+Prompt
+
+@Procedure/main_procedure
 
 Prompt
 Prompt *******************************************************************JASON KAMSU*************************************************************************
@@ -86,5 +92,5 @@ SELECT * FROM CONTROL_PANIER_MENU;
 -- BY JASON KAMSU
 --
 Prompt
-Prompt *******************************************************************JASON KAMSU*************************************************************************
+Prompt *******************************************************************SWEET_WORLD*************************************************************************
 Prompt

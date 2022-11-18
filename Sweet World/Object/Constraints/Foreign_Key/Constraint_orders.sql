@@ -1,7 +1,7 @@
 ALTER TABLE Orders
 ADD 
-    CONSTRAINT fk_id_resto
-        FOREIGN KEY(id_resto)
+    CONSTRAINT fk_id_restaurant
+        FOREIGN KEY (id_resto)
         REFERENCES Restaurant(id_resto);
 
 ALTER TABLE Orders

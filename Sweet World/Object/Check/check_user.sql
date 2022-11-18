@@ -1,4 +1,4 @@
 ALTER TABLE Users
 ADD ( 
-		CONSTRAINT password_chk  CHECK(password LIKE '_________')
+		CONSTRAINT password_chk  CHECK( LENGTH(password) >= 9 )
 );
