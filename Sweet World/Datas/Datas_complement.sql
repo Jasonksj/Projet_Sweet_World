@@ -35,7 +35,7 @@ INSERT INTO Complement ( id_complement , Name_complement) VALUES (11,' Mignondo'
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (12,' Baton de manioc');
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (13,' Couscous mais ');
 INSERT INTO Complement ( id_complement , Name_complement) VALUES (14,' Couscous de manioc ');
-INSERT INTO Complement ( id_complement , Name_complement) VALUES (15,' Tapioca');
+INSERT INTO Complement ( id_complement , Name_complement) VALUES (15,' Couscous de Tapioca');
 
 --*********BY annaellejosee13*********-- 
 
