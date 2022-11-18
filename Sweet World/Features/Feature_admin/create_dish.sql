@@ -1,6 +1,2 @@
-BEGIN
-sp_users (p_id_user => &id_user,
-          p_username => '&username'                     
-         );
-END;
-/
+INSERT INTO Dish(id_dish, Name_dish)
+VALUES(id_dish_seq.nextval,'&Name_dish');
