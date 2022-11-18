@@ -1,7 +1,2 @@
-BEGIN
-   sp_users (p_id_user => &id_user,
-             p_username => '&username',   
-             p_password => '&password'                      
-             );
-END;
-/
+INSERT INTO Seculant(id_seculant,  Name_Seculant )
+VALUES(id_seculant_seq.nextval,'&Name_Seculant');
