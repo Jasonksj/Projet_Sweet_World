@@ -20,6 +20,12 @@ Prompt
 @Procedure/procedure_register_customers
 
 Prompt
+Prompt***************************** PROCEDURE RESTAUARNT *****************************
+Prompt
+
+@Procedure/procedure_register_restaurant
+
+Prompt
 Prompt *******************************************************************SWEET_WORLD*************************************************************************
 Prompt
 
