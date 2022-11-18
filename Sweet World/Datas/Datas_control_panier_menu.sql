@@ -1,18 +1,18 @@
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0001,0001,2,2000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0002,0001,2,3000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0003,0001,5,5000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0004,0001,1,2000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0005,0001,3,4000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0006,0001,1,2500);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0007,0001,6,3500);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0008,0001,7,2000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0009,0001,3,3000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0010,0001,2,4000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0011,0001,1,1000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0012,0001,5,4000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0013,0001,2,3000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0014,0001,5,2000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0015,0001,2,5000);
-INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity,Price) VALUES (0016,0001,4,2000);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0001,1,2);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0002,2,2);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0003,3,5);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0004,4,1);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0005,5,3);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0006,6,1);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0007,7,6);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0008,8,7);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0009,9,3);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0010,10,2);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0011,11,1);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0012,12,5);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0013,13,2);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0014,14,5);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0015,15,2);
+INSERT INTO Control_Panier_Menu(id_panier,id_menu,Quantity) VALUES (0016,16,4);
 
 --***********BY JASON KAMSU**********--
