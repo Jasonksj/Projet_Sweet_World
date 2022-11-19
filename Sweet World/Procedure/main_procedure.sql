@@ -1,4 +1,4 @@
-ALTER SESSION SET NLS_LANGUAGE=English;
+/*ALTER SESSION SET NLS_LANGUAGE=English;
 ALTER SESSION SET NLS_TERRITORY=America;
 ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY'
 
@@ -29,3 +29,4 @@ Prompt
 Prompt *******************************************************************SWEET_WORLD*************************************************************************
 Prompt
 
+*/
